@@ -3,7 +3,7 @@ import { GetStaticProps, NextPage } from 'next'
 
 import styles from 'styles/home.module.scss'
 
-type PageProps = {
+interface PageProps {
   title: string
 }
 
